@@ -1,12 +1,12 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: servicio-streamlit-datapath-nombre-apellido
+  name: servicio-streamlit-sesion3-kevin-inofuente
 spec:
   template:
     spec:
       containers:
-        - image: us-central1-docker.pkg.dev/project-mlops9-ino-streamlit/repo-mlops11-streamlit-datapath/image-v1-streamlit-datapath:latest
+        - image: us-central1-docker.pkg.dev/project-mlops-10-streamlit/repo-mlops12-sesion3-streamlit/image-v3-ml-streamlit-datapath:latest
           env:
           ports:
             - containerPort: 4000
