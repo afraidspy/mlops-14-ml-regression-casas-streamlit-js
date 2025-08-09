@@ -6,10 +6,11 @@ gcloud artifacts repositories create repo-mlops12-streamlit-regresion --reposito
 
 ## Paso Automatizacion:
 - git init
-- git init git add . 
+- git add .
 - git commit -m "Proyecto de automatización de despliegue en GCR"
-
-
+- git branch -M main
+- git remote add origin https://github.com/KevinInoCol/mlops12-deploy-gcr-streamlit-regresion.git
+- git push -u origin main
 
 
 
