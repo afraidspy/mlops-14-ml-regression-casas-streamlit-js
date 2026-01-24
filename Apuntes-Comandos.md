@@ -2,7 +2,7 @@
 gcloud init
 
 ## Paso 1: Creación del repositorio
-gcloud artifacts repositories create repo-mlops12-streamlit-regresion --repository-format docker --project project-datapath-mlops11-ino --location us-central1
+gcloud artifacts repositories create repo-mlops14-streamlit-regresion --repository-format docker --project mlops-14-project-deploy-fast --location us-central1
 
 ## Paso Automatizacion:
 - git init

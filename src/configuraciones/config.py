@@ -1,3 +1,4 @@
+#configuraciones/config.py
 # categorical variables with NA in train set
 CATEGORICAL_VARS_WITH_NA_FREQUENT = ['BsmtQual', 'BsmtExposure',
                                      'BsmtFinType1', 'GarageFinish']
