@@ -4,6 +4,12 @@ gcloud init
 ## Paso 1: Creación del repositorio
 gcloud artifacts repositories create repo-mlops14-streamlit-regresion --repository-format docker --project mlops-14-project-deploy-fast --location us-central1
 
+## Paso 2: Crear el repo de github
+
+## Paso 3: Crear la Key de la Cuenta de Servicio
+
+## Paso 4: Colocar el Service Account Key en GitHub Settings
+
 ## Paso Automatizacion:
 - git init
 - git add .
@@ -12,6 +18,10 @@ gcloud artifacts repositories create repo-mlops14-streamlit-regresion --reposito
 - git remote add origin https://github.com/KevinInoCol/mlops12-deploy-gcr-streamlit-regresion.git
 - git push -u origin main
 
+## Cuando deseas volver a subir por algun error corres lo siguiente:
+- git add .
+- git commit -m "Correccion3"
+- git push origin main
 
 
 ## Paso 2: Crear la imagen de mi APLICACION y subir al repositorio
