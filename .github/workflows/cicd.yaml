@@ -3,7 +3,7 @@ name: Deploy to Cloud Run
 env:
   SERVICE_NAME: servicio-streamlit-kevin-inofuente-modulo2
   PROJECT_ID: project-datapath-mlops11-ino
-  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/project-datapath-mlops11-ino/repo-mlops12-streamlit-regresion/image-v1-deploy-fastapi-cicd
+  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/mlops-14-project-deploy-fast/repo-mlops14-streamlit-regresion/image-v1-deploy-streamlit-cicd
 
 on:
   push:
