@@ -1,5 +1,5 @@
 {
-    "name": "MLOps-12-Streamlit-Devcontainer",
+    "name": "MLOps-14-Streamlit-Devcontainer",
     "build": {
       "dockerfile": "../Dockerfile.dev"
     },
