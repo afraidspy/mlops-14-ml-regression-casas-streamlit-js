@@ -14,7 +14,7 @@ on:
       - main
 
 jobs:
-  dockerize-and-deploy
+  dockerize-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
